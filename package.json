@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-cypress-e2e",
+  "version": "1.0.0",
+  "description": "Ejercicio E2E SauceDemo - Cypress",
+  "scripts": {
+    "install:clean": "rm -rf cypress/logs cypress/reports || true && mkdir -p cypress/logs cypress/reports",
+    "test:open": "npx cypress open",
+    "test:run": "npx cypress run --reporter mochawesome --reporter-options reportDir=cypress/reports,overwrite=false,html=true,json=false",
+    "test:run:headless": "npx cypress run --browser chrome --headless --reporter mochawesome --reporter-options reportDir=cypress/reports,overwrite=false,html=true,json=false"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "mochawesome": "^7.0.0"
+  }
+}
