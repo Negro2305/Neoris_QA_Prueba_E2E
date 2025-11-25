@@ -1,9 +1,3 @@
-
----
-
-# 11) `CONCLUSIONES.md` (contenido .md)
-
-```markdown
 # CONCLUSIONES - Ejercicio E2E SauceDemo (Cypress)
 
 ## Resumen
@@ -26,5 +20,4 @@ Se implementó una prueba E2E que automatiza el flujo de compra en https://www.s
 - Mantener los selectores estables usando `data-test` o `data-cy`.
 
 ## Observaciones finales
-- El paquete generado contiene `cypress/logs/test.log` y `cypress/logs/browser.log` con el detalle de la ejecución.
-- El reporte HTML (`cypress/reports/*.html`) incluye el resumen de las pruebas para entregar al evaluador.
+- El paquete generado contiene `cypress/logs/test.log` y `cypress/logs/browser.log` con el detalle de la ejecuci
